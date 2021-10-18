@@ -17,4 +17,12 @@ public class Human {
     public int getAge() {
         return age;
     }
+
+    public void prefixName(String prefix) {
+        name = prefix + " " + name;
+    }
+
+    public void introduceSelf() {
+        System.out.println("Hello, my name is " + name + ".");
+    }
 }
