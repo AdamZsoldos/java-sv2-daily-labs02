@@ -10,12 +10,12 @@ public class GasStation {
 
     public static void main(String[] args) {
 
-        GasStation gasStation = new GasStation(350.0);
+        GasStation gasStation = new GasStation(351.4);
         Car car = new Car();
 
         System.out.println(gasStation.refuelCar(car, 20));
 
-        car.setTotalDistanceTraveledInKm(200);
+        car.setTotalDistanceTraveledInKm(211);
 
         System.out.println(car.calculateFuelConsumption());
     }
