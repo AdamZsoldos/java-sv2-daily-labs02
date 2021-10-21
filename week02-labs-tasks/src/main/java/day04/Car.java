@@ -21,7 +21,7 @@ public class Car {
         this.totalDistanceTraveledInKm = totalDistanceTraveledInKm;
     }
 
-    public double fuelConsumption() {
+    public double calculateFuelConsumption() {
         return totalFuelTankedInLitre * 100.0 / totalDistanceTraveledInKm;
     }
 }
