@@ -20,7 +20,7 @@ public class Movie {
     public double getUserRating() { return userRating; }
 
     public String getInfo() {
-        return title + " (" + releaseYear + ") User rating: " + userRating;
+        return title + " (" + releaseYear + ") User rating: " + userRating + " (" + totalUserRatings + " ratings)";
     }
 
     public double rate(int rating) {
